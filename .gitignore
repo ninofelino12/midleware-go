@@ -1,0 +1,19 @@
+# Build output
+backend
+
+# Environment / secrets (if any)
+service-account.json
+*.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Go cache (optional, usually not committed)
+.gocache/
